@@ -98,7 +98,7 @@ export const blueThemeLight = {
     type: 'light',
     primary: '#545fc4',
     primary400: '#6e76c7',
-    primary600: '#3644c9',
+    primary600: '#060e56',
     primary80: '#545fc4cc',
     primary50: '#545fc480',
     primary30: '#545fc44d',
