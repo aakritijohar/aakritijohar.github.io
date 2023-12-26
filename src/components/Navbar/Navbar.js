@@ -14,6 +14,8 @@ import './Navbar.css';
 import { headerData } from '../../data/headerData';
 import { ThemeContext } from '../../contexts/ThemeContext';
 
+import mylogo from '../../assets/png/one.png';
+
 function Navbar() {
     const { theme, setHandleDrawer } = useContext(ThemeContext);
 
@@ -134,7 +136,11 @@ function Navbar() {
         <div className='navbar'>
             <div className='navbar--container'>
                 <h1 style={{ color: theme.secondary }}>
-                    {shortname(headerData.name)}
+                    <img
+                        src={mylogo}
+                        alt="Brand logo"
+                        style={{ width: '250px', height: '250px', margin: '100px 0 0 -70px' }}
+                    />
                 </h1>
 
                 <IoMenuSharp
